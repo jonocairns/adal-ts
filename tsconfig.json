@@ -1,27 +1,19 @@
 {
     "compilerOptions": {
         "noImplicitAny": true,
-        "module": "commonjs",
+        "module": "system",
         "target": "ES5",
-        "outDir": "dist/",
+        "outFile": "dist/index.js",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "sourceMap": true,
         "declaration": true,
-        "lib": [
-            "dom",
-            "es2015.collection",
-            "es2015.promise",
-            "es5"
-        ],
+        "rootDir": "src",
         "moduleResolution": "node"
     },
-    // "files": [
-    //     "adal.authentication.ts",
-    //     "adal.authentication.context.ts",
-    //     "index.ts",
-    //     "custom.typings.d.ts"
-    // ],
+    "files": [
+        "index.ts"
+    ],
     "exclude": [
         "node_modules"
     ]

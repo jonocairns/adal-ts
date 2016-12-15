@@ -1,4 +1,4 @@
 // export * from './adal.authentication';
 // export * from './adal.authentication.context';
-export * from './authentication';
-export * from './adal.config';
+export * from './src/authentication';
+export * from './src/adal.config';
