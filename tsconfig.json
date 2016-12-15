@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "noImplicitAny": true,
-        "module": "system",
+        "module": "amd",
         "target": "ES5",
         "outFile": "dist/index.js",
         "emitDecoratorMetadata": true,
