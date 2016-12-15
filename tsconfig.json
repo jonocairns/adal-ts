@@ -12,6 +12,7 @@
         "moduleResolution": "node"
     },
     "files": [
+        "src/authentication.context.ts",
         "index.ts"
     ],
     "exclude": [
